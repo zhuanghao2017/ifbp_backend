@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><component conRouterType="曼哈顿直角" createIndustry="115" createTime="2017-12-12 14:12:50" creator="" description="" displayName="立方体_1115" fromSourceBmf="true" gencodestyle="标准样式" help="" id="887229dc-9c11-44ee-9763-8a13f1980c12" industry="115" industryChanged="true" industryIncrease="true" industryName="115" isSource="false" isbizmodel="false" mainEntity="e0d0a3d8-6530-446c-8d8a-490508a7a34d" metaType=".bmf" modifier="" modifyIndustry="115" modifyTime="2017-12-14 15:26:34" name="cube" namespace="demo-public" ownModule="demo-public" preLoad="false" programcode="115" resModuleName="cube" resid="" version="8" versionType="1">
+    <celllist>
+        <entity accessorClassName="nc.md.model.access.javamap.POJOStyle" bizItfImpClassName="" componentID="887229dc-9c11-44ee-9763-8a13f1980c12" createIndustry="0" createTime="2017-12-12 14:13:00" creator="" czlist="" description="" displayName="系统层魔方" fullClassName="com.yonyou.ifbp.cube.entity.CubeEntity" height="100" help="" id="e0d0a3d8-6530-446c-8d8a-490508a7a34d" industryChanged="true" isAuthen="true" isCreateSQL="true" isExtendBean="false" isPrimary="true" isSource="true" keyAttributeId="ad3d3608-f409-4c65-a51a-0ac977d77f4a" modInfoClassName="" modifier="" modifyIndustry="0" modifyTime="2017-12-14 15:26:36" name="CubeEntity" resid="" stereoType="" tableName="demo_cube" userDefClassName="" versionType="0" visibility="public" width="100" x="205" y="179">
+            <attributelist>
+                <attribute accessStrategy="" accesspower="false" accesspowergroup="" calculation="false" classID="e0d0a3d8-6530-446c-8d8a-490508a7a34d" createIndustry="0" dataType="BS000010000100001051" dataTypeStyle="SINGLE" dbtype="char" defaultValue="" description="" displayName="主键" dynamic="false" dynamicTable="" fieldName="id" fieldType="char" fixedLength="false" forLocale="false" help="" id="ad3d3608-f409-4c65-a51a-0ac977d77f4a" industryChanged="false" isActive="true" isAuthorization="true" isDefaultDimensionAttribute="false" isDefaultMeasureAttribute="false" isFeature="false" isGlobalization="false" isHide="false" isKey="true" isNullable="false" isReadOnly="false" isShare="false" isSource="true" length="20" maxValue="" minValue="" modifyIndustry="0" name="id" notSerialize="false" precise="" refModelName="" resid="" sequence="0" typeDisplayName="ID" typeName="ID" versionType="0" visibility="public"/>
+                <attribute accessStrategy="" accesspower="false" accesspowergroup="" calculation="false" classID="e0d0a3d8-6530-446c-8d8a-490508a7a34d" createIndustry="115" dataType="BS000010000100001001" dataTypeStyle="SINGLE" dbtype="varchar" defaultValue="" description="" displayName="名称115" dynamic="false" dynamicTable="ext_demo_cube_1115" fieldName="name_1115" fieldType="varchar" fixedLength="false" forLocale="false" help="" id="5fcb008d-9efe-411d-b2dc-c4430e6dcad6" industryChanged="true" isActive="true" isAuthorization="true" isDefaultDimensionAttribute="false" isDefaultMeasureAttribute="false" isFeature="false" isGlobalization="false" isHide="false" isKey="false" isNullable="true" isReadOnly="false" isShare="false" isSource="false" length="50" maxValue="" minValue="" modifyIndustry="115" name="name_1115" notSerialize="false" precise="" refModelName="" resid="" sequence="1" typeDisplayName="文本" typeName="String" versionType="1" visibility="public"/>
+                <attribute accessStrategy="" accesspower="false" accesspowergroup="" calculation="false" classID="e0d0a3d8-6530-446c-8d8a-490508a7a34d" createIndustry="115" dataType="BS000010000100001001" dataTypeStyle="SINGLE" dbtype="varchar" defaultValue="" description="" displayName="编码115" dynamic="false" dynamicTable="ext_demo_cube_1115" fieldName="code_1115" fieldType="varchar" fixedLength="false" forLocale="false" help="" id="8a0e714c-5f1f-4cfe-9010-d546c515c35a" industryChanged="true" isActive="true" isAuthorization="true" isDefaultDimensionAttribute="false" isDefaultMeasureAttribute="false" isFeature="false" isGlobalization="false" isHide="false" isKey="false" isNullable="true" isReadOnly="false" isShare="false" isSource="false" length="50" maxValue="" minValue="" modifyIndustry="115" name="code_1115" notSerialize="false" precise="" refModelName="" resid="" sequence="2" typeDisplayName="文本" typeName="String" versionType="1" visibility="public"/>
+            </attributelist>
+            <operationlist/>
+            <busiitfs/>
+            <busimaps/>
+            <canzhaolist/>
+            <accessor classFullname="nc.md.model.access.javamap.POJOStyle" displayName="POJO" name="pojo">
+                <properties/>
+            </accessor>
+        </entity>
+        <Enumerate componentID="887229dc-9c11-44ee-9763-8a13f1980c12" createIndustry="115" createTime="2017-12-14 15:21:49" creator="" dataType="BS000010000100001001" dbtype="varchar" description="" displayName="性别枚举扩展" fullClassName="com.yonyou.ifbp.enumerate0.entity.Enumerate0" height="100" help="" id="276758b6-a6d9-4401-b33f-9a4f65c90723" industryChanged="false" isSource="false" modInfoClassName="" modifier="" modifyIndustry="115" modifyTime="2017-12-14 15:26:16" name="SexEnum_1115" resid="" typeDisplayName="文本" typeName="String" versionType="1" visibility="public" width="100" x="487" y="155">
+            <enumitemlist>
+                <enumitem createIndustry="115" description="_1115" enumDisplay="defaultDisplay0" enumID="276758b6-a6d9-4401-b33f-9a4f65c90723" enumValue="1" hidden="false" id="3eaa1e15-aa00-4335-b399-221d1ce7dc45" industryChanged="false" isSource="false" modifyIndustry="115" resid="" sequence="0" versionType="0"/>
+                <enumitem createIndustry="0" description="_1115" enumDisplay="defaultDisplay1" enumID="276758b6-a6d9-4401-b33f-9a4f65c90723" enumValue="2" hidden="false" id="2b5a32d2-7c54-4bff-9064-741c3747b583" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="1" versionType="0"/>
+            </enumitemlist>
+        </Enumerate>
+    </celllist>
+    <connectlist/>
+    <refdepends/>
+    <refdependLoseIDs/>
+    <cellRemoveLog/>
+    <rulers>
+        <ruler isHorizontal="true" unit="0">
+            <guideList/>
+        </ruler>
+        <ruler isHorizontal="false" unit="0">
+            <guideList/>
+        </ruler>
+    </rulers>
+</component>

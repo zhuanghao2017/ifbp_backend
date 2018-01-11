@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><component conRouterType="曼哈顿直角" createIndustry="0" createTime="2017-10-10 13:33:54" creator="" description="" displayName="demo_enum" fromSourceBmf="true" gencodestyle="标准样式" help="" id="be769a65-d68e-40d8-af38-d244b4769f1e" industry="0" industryChanged="false" industryIncrease="false" industryName="0" isSource="false" isbizmodel="false" mainEntity="" metaType=".bmf" modifier="" modifyIndustry="0" modifyTime="2017-12-14 13:42:04" name="demo_enum" namespace="demo-public" ownModule="demo-public" preLoad="false" programcode="0" resModuleName="demo_enum" resid="" version="8" versionType="0">
+    <celllist>
+        <Enumerate componentID="be769a65-d68e-40d8-af38-d244b4769f1e" createIndustry="0" createTime="2017-10-10 13:33:56" creator="" dataType="BS000010000100001004" dbtype="int" description="" displayName="订单类型" fullClassName="com.yonyou.ifbp.demo.entity.order.OrderTypeEnum" height="157" help="" id="90205ac6-f633-47c6-b05f-c1c396d80c76" industryChanged="false" isSource="true" modInfoClassName="" modifier="" modifyIndustry="0" modifyTime="2017-12-14 13:42:10" name="OrderType" resid="" typeDisplayName="整数" typeName="Integer" versionType="0" visibility="public" width="100" x="223" y="130">
+            <enumitemlist>
+                <enumitem createIndustry="0" description="" enumDisplay="采购订单" enumID="90205ac6-f633-47c6-b05f-c1c396d80c76" enumValue="1" hidden="false" id="71560616-2c9b-49bf-b0bb-5b30445673b6" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="0" versionType="0"/>
+                <enumitem createIndustry="0" description="" enumDisplay="销售订单" enumID="90205ac6-f633-47c6-b05f-c1c396d80c76" enumValue="2" hidden="false" id="a0e51c4e-0dca-4e19-ad2a-358d3e115827" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="1" versionType="0"/>
+            </enumitemlist>
+        </Enumerate>
+    </celllist>
+    <connectlist/>
+    <refdepends/>
+    <refdependLoseIDs/>
+    <cellRemoveLog/>
+    <rulers>
+        <ruler isHorizontal="true" unit="0">
+            <guideList/>
+        </ruler>
+        <ruler isHorizontal="false" unit="0">
+            <guideList/>
+        </ruler>
+    </rulers>
+</component>

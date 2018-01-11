@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><component conRouterType="曼哈顿直角" createIndustry="0" createTime="2017-12-12 14:12:50" creator="" description="" displayName="立方体" fromSourceBmf="true" gencodestyle="标准样式" help="" id="887229dc-9c11-44ee-9763-8a13f1980c12" industry="0" industryChanged="false" industryIncrease="false" industryName="0" isSource="false" isbizmodel="false" mainEntity="e0d0a3d8-6530-446c-8d8a-490508a7a34d" metaType=".bmf" modifier="" modifyIndustry="0" modifyTime="2017-12-12 14:13:34" name="cube" namespace="demo-public" ownModule="demo-public" preLoad="false" programcode="0" resModuleName="cube" resid="" version="2" versionType="0">
+    <celllist>
+        <entity accessorClassName="nc.md.model.access.javamap.POJOStyle" bizItfImpClassName="" componentID="887229dc-9c11-44ee-9763-8a13f1980c12" createIndustry="0" createTime="2017-12-12 14:13:00" creator="" czlist="" description="" displayName="系统层魔方" fullClassName="com.yonyou.ifbp.cube.entity.CubeEntity" height="100" help="" id="e0d0a3d8-6530-446c-8d8a-490508a7a34d" industryChanged="false" isAuthen="true" isCreateSQL="true" isExtendBean="false" isPrimary="true" isSource="true" keyAttributeId="ad3d3608-f409-4c65-a51a-0ac977d77f4a" modInfoClassName="" modifier="" modifyIndustry="0" modifyTime="2017-12-12 14:15:37" name="CubeEntity" resid="" stereoType="" tableName="demo_cube" userDefClassName="" versionType="0" visibility="public" width="100" x="205" y="179">
+            <attributelist>
+                <attribute accessStrategy="" accesspower="false" accesspowergroup="" calculation="false" classID="e0d0a3d8-6530-446c-8d8a-490508a7a34d" createIndustry="0" dataType="BS000010000100001051" dataTypeStyle="SINGLE" dbtype="char" defaultValue="" description="" displayName="主键" dynamic="false" dynamicTable="" fieldName="id" fieldType="char" fixedLength="false" forLocale="false" help="" id="ad3d3608-f409-4c65-a51a-0ac977d77f4a" industryChanged="false" isActive="true" isAuthorization="true" isDefaultDimensionAttribute="false" isDefaultMeasureAttribute="false" isFeature="false" isGlobalization="false" isHide="false" isKey="true" isNullable="false" isReadOnly="false" isShare="false" isSource="true" length="20" maxValue="" minValue="" modifyIndustry="0" name="id" notSerialize="false" precise="" refModelName="" resid="" sequence="0" typeDisplayName="ID" typeName="ID" versionType="0" visibility="public"/>
+            </attributelist>
+            <operationlist/>
+            <busiitfs/>
+            <busimaps/>
+            <canzhaolist/>
+            <accessor classFullname="nc.md.model.access.javamap.POJOStyle" displayName="POJO" name="pojo">
+                <properties/>
+            </accessor>
+        </entity>
+    </celllist>
+    <connectlist/>
+    <refdepends/>
+    <refdependLoseIDs/>
+    <cellRemoveLog/>
+    <rulers>
+        <ruler isHorizontal="true" unit="0">
+            <guideList/>
+        </ruler>
+        <ruler isHorizontal="false" unit="0">
+            <guideList/>
+        </ruler>
+    </rulers>
+</component>
